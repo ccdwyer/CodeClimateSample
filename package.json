@@ -33,6 +33,9 @@
     "@types/react": "^17"
   },
   "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["lcov"],
+    "collectCoverageFrom": ["src/**/*.{js,jsx,ts,tsx}"],
     "preset": "react-native",
     "moduleFileExtensions": [
       "ts",
